@@ -1,7 +1,7 @@
 
 ### Recursive methods are either
 - Tail recursive
-- Nontail recursive
+- Non-tail recursive
 
 **Tail recursive** method has the recursive call as the last statement in the method and nothing happens after that.
 
