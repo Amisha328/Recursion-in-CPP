@@ -4,6 +4,7 @@ using namespace std;
 
 int findLength(char* str)
 {
+    // if control reach at the end of the string
     if(*str == '\0')
         return 0;
 
@@ -17,3 +18,5 @@ int main(){
     cout<< findLength(str);
     return 0;
 }
+
+// Time Complexity : O(n) 
