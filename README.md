@@ -1,6 +1,6 @@
 # Recursion-in-CPP
 
-This repository contains code on recursion in C++. Each type of question contails two approaches Tail and Non-Tail recursion.
+This repository contains code on recursion in C++ with clear understanding of each step.
 
 
 #### Happy Coding 😀
