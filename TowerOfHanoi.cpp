@@ -23,3 +23,5 @@ int main()
     toh(n, 'A', 'B', 'C');
     return 0;
 }
+
+// number of movement is 2^n - 1
