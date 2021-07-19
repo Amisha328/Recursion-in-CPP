@@ -7,3 +7,22 @@
 // 3.The last people you counted leaves the circle and loses the game.
 // 4.If there is still more than one people in the circle, go back to step 2 starting from the people immediately clockwise of the people who just lost and repeat.
 // 5.Else, the last people in the circle wins the game.
+
+#include<bits/stdc++.h>
+using namespace std;
+#define eff ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+
+int jos(int n, int k)
+{
+     if(n == 1)
+            return 0;
+        return (jos(n-1,k)+k)%n;
+}
+int main()
+{
+    eff;
+    int n,k;
+    cin>>n>>k;
+    cout<<jos(n,k)+1;
+    return 0;
+}
