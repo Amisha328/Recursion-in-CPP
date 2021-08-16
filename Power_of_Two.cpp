@@ -1,3 +1,5 @@
+// An integer n is a power of two, if there exists an integer x such that n == 2^x.
+
 #include<bits/stdc++.h>
 using namespace std;
 #define eff ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
