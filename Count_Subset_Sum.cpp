@@ -5,7 +5,6 @@
 using namespace std;
 #define eff ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-int c = 0;
 int countSubset(int N, vector<int> &arr, int sum)
 {
     if(N == 0)
